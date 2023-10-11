@@ -2,7 +2,7 @@ package ProjetoIntegrador;
 
 import java.util.Scanner;
 
-public interface login {
+public interface Login {
 
 	public static void main(String args[]) {
 		Scanner leia = new Scanner(System.in);
@@ -14,7 +14,7 @@ public interface login {
 	
 		while (op != 9) {
 
-			System.out.println("Informe o tipo de usu·rio : (C)- Cliente ou (D)-Distribuidor");
+			System.out.println("Informe o tipo de usu√°rio : (C)- Cliente ou (D)-Distribuidor");
 			System.out.println("9 = fechar o programa");
 			usuario = leia.nextLine();
 
@@ -40,7 +40,7 @@ public interface login {
 				System.out.println("e-mail: " + email);
 				System.out.println("CNPJ: " + cnpj);
 				System.out.println(
-						"Enviamos uma verificaÁ„o para o e-mail cadastrado, para cconcluir o cadastro, confirme a verificaÁ„o.");
+						"Enviamos uma verifica√ß√£o para o e-mail cadastrado, para cconcluir o cadastro, confirme a verifica√ß√£o.");
 				System.out.println(
 						"==========================================================================================================");
 				break;
@@ -65,7 +65,7 @@ public interface login {
 				System.out.println("e-mail: " + email);
 				System.out.println("CNPJ: " + cnpj);
 				System.out.println(
-						"Enviamos uma verificaÁ„o para o e-mail cadastrado, para cconcluir o cadastro, confirme a verificaÁ„o.");
+						"Enviamos uma verifica√ß√£o para o e-mail cadastrado, para cconcluir o cadastro, confirme a verifica√ß√£o.");
 				System.out.println(
 						"==========================================================================================================");
 				
