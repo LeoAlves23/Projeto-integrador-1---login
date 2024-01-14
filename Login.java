@@ -2,7 +2,7 @@ package ProjetoIntegrador;
 
 import java.util.Scanner;
 
-public interface Login {
+public class Login {
 
 	public static void main(String args[]) {
 		Scanner leia = new Scanner(System.in);
